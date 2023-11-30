@@ -2,7 +2,7 @@
 
 Author:  Wasif Malik <https://github.com/wmalik>
 License: ISC license
-Repo:    https://github.com/wmalik/vim-terramate
+Repo:    https://github.com/terramate-io/vim-terramate
 
 
                                       Type |gO| to see the table of contents.
