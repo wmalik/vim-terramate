@@ -13,12 +13,15 @@ This plugin provides the following features:
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
     * Install [vim-lsp](https://github.com/prabirshrestha/vim-lsp)
     * Install [vim-terramate](https://github.com/wmalik/vim-terramate)
+    * Check the "Example vimrc configuration" below if you are using vim-plug
+      for the first time
 * Install terramate-ls
   - `go install github.com/terramate-io/terramate/cmd/terramate-ls@latest`
   - Ensure `terramate-ls` is in your $PATH
 
 ### Example vimrc configuration
 
+```vimscript
 call plug#begin('~/.vim/plugged')
 Plug 'prabirshrestha/vim-lsp'
 Plug 'wmalik/vim-terramate'
