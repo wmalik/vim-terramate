@@ -5,6 +5,8 @@ This plugin provides the following features:
 * Syntax highlighting for terramate files (`*.tm.hcl` and `*.tm`)
 * Language server integration with [terramate-ls](https://github.com/terramate-io/terramate/tree/main/cmd/terramate-ls) via [vim-lsp](https://github.com/prabirshrestha/vim-lsp)
 * `:Terramate` command that runs terramate, with tab completion of subcommands.
+* Shortcuts:
+  - `<leader>tm` opens documentation of a `tm_*` function in the web browser
 
 ---
 
