@@ -36,5 +36,7 @@ if executable('terramate-ls')
   let g:lsp_diagnostics_virtual_text_align = 'right'
 endif
 
+autocmd FileType terramate nmap <leader>tm :call TerramateDocs()<CR>
+
 let &cpoptions = s:cpo_save
 unlet s:cpo_save
