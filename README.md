@@ -14,7 +14,7 @@ This plugin provides the following features:
 
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
     * Install [vim-lsp](https://github.com/prabirshrestha/vim-lsp)
-    * Install [vim-terramate](https://github.com/wmalik/vim-terramate)
+    * Install [vim-terramate](https://github.com/terramate-io/vim-terramate)
     * Check the "Example vimrc configuration" below if you are using vim-plug
       for the first time
 * Install terramate-ls
@@ -26,7 +26,7 @@ This plugin provides the following features:
 ```vimscript
 call plug#begin('~/.vim/plugged')
 Plug 'prabirshrestha/vim-lsp'
-Plug 'wmalik/vim-terramate'
+Plug 'terramate-io/vim-terramate'
 call plug#end()
 ```
 
